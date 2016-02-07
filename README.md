@@ -9,42 +9,42 @@
 ##--------------------------------------------------------
 
 
-                 Read Me
+###                READ ME
 
 
 --------------------------------------------------------
 ###*  Description of the program
 --------------------------------------------------------
 
-Using 3 dimensional points the program calculates the distance between 2 points and than applies this to find the area of the points.
+    Using 3 dimensional points the program calculates the distance between 2 points and than applies this to find the area of the points.
 
 
 --------------------------------------------------------
 ###*  Source files
 --------------------------------------------------------
 
-Name:  main.cpp
+####Name:  main.cpp
 
-Is the driver file that runs all the testing script.
+    Is the driver file that runs all the testing script.
 
-Name: Point.cpp
+####Name: Point.cpp
 
-The Point class implementation file. You will find all member functions here
+    The Point class implementation file. You will find all member functions here
 
-Name: area.cpp
+####Name: area.cpp
 
-computeArea function only. using Herons's formula this function determines the area of 3 points.
+    computeArea function only. using Herons's formula this function determines the area of 3 points.
 
   
 --------------------------------------------------------
 ##*  Circumstances of programs
 --------------------------------------------------------
 
-The program runs successfully.  
+    The program runs successfully.  
 
-The program was developed in CLion 1.2.4 using the MinGW 3.21 Enviorment and tested using the supplied testing code. 
+    The program was developed in CLion 1.2.4 using the MinGW 3.21 Enviorment and tested using the supplied testing code. 
  
-It compiled, ran, and showed to pass all 59 tests
+    It compiled, ran, and showed to pass all 59 tests
 
 --------------------------------------------------------
 * 
