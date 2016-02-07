@@ -3,8 +3,11 @@
 //Point class implementation file.
 //All functions for the pint class are here.
 
-#include "Point.h"
+
 #include <iostream>
+#include <cmath>
+#include "Point.h"
+
 
 using namespace std;
 
@@ -35,12 +38,12 @@ void Point::setX(double newX){
     x = newX;
 }
 
-void setY(double newY){
+void Point::setY(double newY){
 
     y = newY;
 }
 
-void setZ(double newZ){
+void Point::setZ(double newZ){
 
     z = newZ;
 }
@@ -54,11 +57,27 @@ double Point::getX() const{
 
 double Point::getY() const{
 
-    return y:
+    return y;
 }
 
 double Point::getZ() const{
 
     return z;
 }
+
+// Returns the distance between two points.
+double Point::distanceTo(const Point & p) const{
+
+    //Calculates the distance between two points.
+    double xDistance = (x - p.getX()) * (x - p.getX());
+    double yDistance = (y - p.getY()) * (y - p.getY());
+    double zDistance = (z - p.getZ()) * (z - p.getZ());
+
+
+    double finalDistance = sqrt( xDistance + yDistance + zDistance );
+
+    return finalDistance;
+
+}
+
 

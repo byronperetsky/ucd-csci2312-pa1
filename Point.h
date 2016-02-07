@@ -1,4 +1,4 @@
-// A 2-dimensional point class!
+// A 3-dimensional point class!
 // Coordinates are double-precision floating point.
 
 #ifndef __POINT_H
@@ -24,6 +24,10 @@ public:
     double getX() const;
     double getY() const;
     double getZ() const;
+
+    // Approximates the distance between the two points
+    double distanceTo(const Point & p) const;
+
     
 };
 
